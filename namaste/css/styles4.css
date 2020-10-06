@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+
+section {
+    display: flex;
+    text-align: center;
+    margin: 35px 170px;
+}
+
+.block {
+    width: 236px;
+    height: 420px;
+    border: 1px solid #ececec;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+#first {
+    background-image: url(../im/Anchor.svg);
+    background-repeat: no-repeat;
+    background-position: 90px 20px;
+}
+
+#first:hover{
+    background-image: url(../w/anchor.png);
+    border: 1px solid #0ec8cb;
+    background-color: #0ec8cb;
+}
+
+#first:hover .text {
+    color: white;
+}
+
+#first:hover h2 {
+    color: white;
+}
+
+#second {
+    background-image: url(../im/diamond.png);
+    background-repeat: no-repeat;
+    background-position: 90px 20px;
+}
+
+#second:hover {
+    background-image: url(../w/Diamond.png);
+    border: 1px solid #0ec8cb;
+    background-color: #0ec8cb;
+}
+
+
+
+#second:hover .text {
+    color: white;
+}
+
+#second:hover h2 {
+    color: white;
+}
+
+#third {
+    background-image: url(../im/Eyeglasses.svg);
+    background-repeat: no-repeat;
+    background-position: 90px 20px;
+}
+
+#third:hover {
+    background-image: url(../w/glasses\ \(1\).png);
+    border: 1px solid #0ec8cb;
+    background-color: #0ec8cb;
+}
+
+
+
+#third:hover .text {
+    color: white;
+}
+
+#third:hover h2 {
+    color: white;
+}
+
+
+#fourth {
+    background-image: url(../im/Monitor.svg);
+    background-repeat: no-repeat;
+    background-position: 90px 20px;
+}
+
+#fourth:hover {
+    background-image: url(../w/monitor\ \(1\).png);
+    border: 1px solid #0ec8cb;
+    background-color: #0ec8cb;
+}
+
+
+#fourth:hover .text {
+    color: white;
+}
+
+#fourth:hover h2 {
+    color: white;
+}
+
+
+.who {
+    color: #898f99;
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    text-align: center;
+    
+}
+
+h1{
+    margin-top: 0;
+    color: #0ec8cb;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4.8px;
+    text-align: center;
+    
+}
+
+h2 {
+    width: 138px;
+    height: 16px;
+    color: #1b1b1b;
+    font-family: Montserrat;
+    font-size: 21px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 45px;
+    margin-top: 110px;
+    
+}
+
+.text {
+    width: 174px;
+    height: 101px;
+    color: #777777;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin: 33px 30px 94px;
+}
+
+.about {
+    margin-left: auto;
+    margin-right: auto;
+    width: 513px;
+    color: #999999;
+    font-family: "PT Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
